@@ -1,41 +1,64 @@
-# چالش های پایتونی
+# python challenges
 
-## سوال ۱: انواع داده
+### Questions:
 
-یک متغیر ایجاد کنید که نام، سن و اینکه آیا دانشجو هستید یا نه را ذخیره کند. برنامه‌ای بنویسید که هر متغیر و نوع داده آن را چاپ کند.
+**Question 1: Data Types**  
+Create variables to store your name, age, and whether you are a student.  
+Write a program that prints each variable along with its data type.
 
-## سوال ۲: تبدیل نوع
+---
 
-برنامه‌ای بنویسید که از کاربر بخواهد یک عدد را (به صورت رشته) وارد کند. آن را به یک عدد صحیح تبدیل کنید و سپس مربع آن عدد را چاپ کنید.
+**Question 2: Type Conversion**  
+Write a program that asks the user to enter a number (as a string).  
+Convert it to an integer and then print the square of the number.
 
-## سوال ۳: شرایط
+---
 
-برنامه‌ای بنویسید که از کاربر بخواهد یک عدد وارد کند. بررسی کنید که آیا عدد مثبت، منفی یا صفر است و نتیجه را چاپ کنید.
+**Question 3: Conditions**  
+Write a program that asks the user to input a number.  
+Check whether the number is positive, negative, or zero, and print the result.
 
-## سوال ۴: عملیات منطقی
+---
 
-برنامه‌ای بنویسید که سن کاربر را بپرسد. بررسی کنید که آیا سن بین ۱۸ تا ۳۰ است (شامل این اعداد). اگر صحیح بود، "شما در دهه بیست سالگی هستید!" چاپ کنید، در غیر این صورت "شما در دهه بیست سالگی نیستید."
+**Question 4: Logical Operations**  
+Write a program that asks the user for their age.  
+Check if the age is between 18 and 30 (inclusive).  
+If true, print "You are in your twenties!", otherwise print "You are not in your twenties."
 
-## سوال ۵: عملیات ریاضی
+---
 
-برنامه‌ای بنویسید که از کاربر بخواهد دو عدد وارد کند. عملیات جمع، تفریق، ضرب و تقسیم را روی این اعداد انجام داده و نتایج را چاپ کنید.
+**Question 5: Mathematical Operations**  
+Write a program that asks the user to input two numbers.  
+Perform addition, subtraction, multiplication, and division on these numbers and print the results.
 
-## سوال ۶: if-elif-else
+---
 
-برنامه‌ای بنویسید که دمای فعلی را به عنوان ورودی بگیرد. اگر دما زیر ۰ بود، "یخ‌زده" چاپ کنید؛ اگر بین ۰ و ۲۵ بود، "سرد" چاپ کنید؛ اگر بین ۲۶ و ۳۵ بود، "گرم" چاپ کنید؛ و اگر بالای ۳۵ بود، "داغ" چاپ کنید.
+**Question 6: if-elif-else**  
+Write a program that takes the current temperature as input.  
+- If the temperature is below 0, print "Freezing."  
+- If it's between 0 and 25, print "Cold."  
+- If it's between 26 and 35, print "Warm."  
+- If it's above 35, print "Hot."
 
-## سوال ۷: حلقه while
+---
 
-برنامه‌ای بنویسید که اعداد ۱ تا ۱۰ را با استفاده از حلقه while چاپ کند.
+**Question 7: while Loop**  
+Write a program that prints numbers from 1 to 10 using a `while` loop.
 
-## سوال ۸: حلقه for
+---
 
-برنامه‌ای بنویسید که تمام عناصر لیست [10, 20, 30, 40, 50] را با استفاده از حلقه for چاپ کند.
+**Question 8: for Loop**  
+Write a program that prints all elements of the list `[10, 20, 30, 40, 50]` using a `for` loop.
 
-## سوال ۹: شرایط با حلقه‌ها
+---
 
-برنامه‌ای بنویسید که یک عدد صحیح به عنوان ورودی بگیرد. اگر عدد زوج بود، تمام اعداد زوج از ۰ تا آن عدد را با استفاده از حلقه for چاپ کنید. اگر فرد بود، تمام اعداد فرد از ۰ تا آن عدد را چاپ کنید.
+**Question 9: Conditions with Loops**  
+Write a program that takes an integer input.  
+- If the number is even, print all even numbers from 0 up to that number using a `for` loop.  
+- If the number is odd, print all odd numbers from 0 up to that number.
 
-## سوال ۱۰: فاکتوریل با حلقه‌ها
+---
 
-برنامه‌ای بنویسید که یک عدد به عنوان ورودی بگیرد و فاکتوریل آن را با استفاده از حلقه while محاسبه کند.
+**Question 10: Factorial with Loops**  
+Write a program that takes a number as input and calculates its factorial using a `while` loop.
+
