@@ -1,4 +1,4 @@
-# python challenges
+# python challenge
 
 ### Questions:
 
